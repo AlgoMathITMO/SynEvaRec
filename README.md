@@ -30,7 +30,16 @@ If you want to enlarge this set by own model, you can add the desired model manu
 The process of recommender systems quality evaluation on the parametric data is realized in `/modules/evaluator.py`.
 
 ## Main results
+<p align="left">
+  <img width="300"src="https://raw.githubusercontent.com/AlgoMathITMO/SynEvaRec/main/images/ss_0_1_rests.png">
+  <img width="300"src="https://raw.githubusercontent.com/AlgoMathITMO/SynEvaRec/main/images/ss_0_5_rests.png">
+  <img width="300"src="https://raw.githubusercontent.com/AlgoMathITMO/SynEvaRec/main/images/ss_0_9_rests.png">
+</p>
 
+<p align="center">
+  The least RMSE values (the vertical axis) for the chosen target RSs for different $\alpha_1$, $\alpha_2$ (with $\alpha_3 = 1 - (\alpha_1 + \alpha2)$ and step $\delta = 0.05$), sample_size (from left to right: 0.1, 0.5, 0.9) and the synthetic response function in the case of the Restaurants and Their Clients dataset. Colours indicate the RS providing the best quality (blue is for NMF, red is for SVD, yellow is for kNN).
+</p>
+  
 ## Requirements
 Python 3.8 + all of the required packages.
 
